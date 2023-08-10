@@ -24,7 +24,7 @@
         <div class="container-fluid">
           <a class="mainHeading ">ScriBBler<h6 class="subHeading">Explore, Imagine, Create</h6></a>
           <form>
-      <!-- Button-->
+      <!-- Button -->
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
             <button class="btn btn-primary me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#Modal-1">Sign Up</button>
             <button class="btn btn-primary me-md-2" type="button" data-bs-toggle="modal" data-bs-target="#Modal-2">Sign In</button>
@@ -87,14 +87,39 @@
           </div>
         </div>
       </div>
-      <form>
-        <!-- Button trigger modal -->
-            <div class="post-btn">
-              <button class="btn1" type="button">All Posts</button>
-              <button class="btn2" type="button">Create Post</button>
-            </div>
-            </form>
     <!-- Modal-2 Ends -->
+
+        <!-- Button trigger modal -->
+          <div class="post-btn">
+            <form>
+              <button class="btn1" type="button">All Posts</button>
+              <button class="btn2" type="button" data-bs-toggle="modal" data-bs-target="#Modal-3">Create Post</button>
+            </form>
+            <!-- Modal-3 Starts -->
+<div class="modal fade" id="Modal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog modal-xl ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pen Your Post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="title" class="col-form-label">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Enter title of your post" required>
+          </div>
+          <div class="mb-3">
+            <label for="text" class="col-form-label">Contents</label>
+            <textarea  class="form-control" rows="15" cols="50" id="content" placeholder="Enter the contents of your post" required></textarea>
+          </div>
+        <button type="submit" class="createPost" style="width: 120px;">Create</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>

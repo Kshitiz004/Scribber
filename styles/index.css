@@ -59,3 +59,11 @@ a {
     background-color: rgb(216, 190, 58);
     border: 0px;
 }
+.createPost{
+    margin: 0 auto;
+    display: block;
+    background-color: Green;
+    padding: 10px;
+    border: none;
+    color: #fff;
+}
