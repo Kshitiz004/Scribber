@@ -1,0 +1,88 @@
+.post-title{
+    text-align: center;
+    margin: 0 auto;
+}
+.post-title-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.post-content{
+    padding: 10px 20px;
+}
+
+.post-author {
+    margin: 0;
+    font-size: x-large;
+}
+
+.edit-post-text {
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.edit-button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+}
+
+.like-post{
+    padding: 10px 20px;
+}
+
+#LikePostBtn{
+   background-color: red;
+   color: white;
+   border: none;
+   width: 80px;
+   height: 40px;
+}
+
+.comment-form {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.add-comment-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.commentBox{
+    padding: 10px 20px;   
+}
+
+.all-comments-box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 20px 0 0 0;
+}
+
+.comment {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.comment-form textarea {
+    width: 100%;
+    max-width: 800px;
+}
+
+.all-comments-box textarea {
+    width: 100%;
+    max-width: 800px
+}
