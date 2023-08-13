@@ -1,0 +1,101 @@
+body{
+    background-color: #ffeedd;
+    font-family: 'Your Google Font', sans-serif;
+}
+.card-body{
+    background-color: rgb(163, 158, 158);
+    padding: 10px;
+    position: relative;
+}
+.card-mytitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55%;
+}
+.myclass:hover{
+    box-shadow: 5px 10px 18px rgb(164, 163, 163);
+}
+.dot3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+.custom-card {
+
+
+    margin-bottom: 20px;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.post-username {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.trash-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: color 0.3s;
+}
+
+.trash-icon:hover {
+    color: darkred;
+}
+
+/* Styles for delete post modal */
+.modal-content {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    left: 45%;
+    top:50%;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn-yes {
+    background-color: #dc3545;
+    color: #fff;
+    width: 50px;
+}
+
+.btn-no {
+    position: relative;
+    background-color: #28a745;
+    color: #fff;
+    width: 50px
+}
+

@@ -1,64 +1,39 @@
-.mainHeading{
-    font-family: 'Montez', cursive;
-    font-size: 40px;
-    color: blue;
-}
-.subHeading{
-    font: 'Ubuntu Mono';
-    color: black;
-}
-.me-md-2{
-    background-color: blue;
+body{
+    background: url('/images/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
 }
 
-.signIn-btn{
-    align-items: center;
-}
-form {
+.centered-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-input {
-    padding: 10px;
-    outline: none;
+.centered-container .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.label-text {
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-a {
-    font-size: 14px;
-    color: #186CA3;
-    text-decoration: none;
-}
-
-.signin-btn {
-    background-color: Green;
-    padding: 10px;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.btn1{
-    position: fixed;
-    left: 45%;
-    top:50%;
+.centered-container .btn {
+    margin: 10px;
     background-color: rgb(216, 190, 58);
-    border: 0px;
+    border: 0;
 }
-.btn2{
-    position: fixed;
-    left: 51%;
-    top:50%;
-    background-color: rgb(216, 190, 58);
-    border: 0px;
+
+.centered-container .btn:hover {
+    background-color: blue;
+    color: white;
 }
+
 .createPost{
     margin: 0 auto;
     display: block;

@@ -1,0 +1,51 @@
+.mainHeading{
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: blue;
+}
+.subHeading{
+    font-family: 'Ubuntu Mono', monospace;
+    color: black;
+}
+.me-md-2{
+    background-color: blue;
+}
+
+.signIn-btn{
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+}
+
+.label-text {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+a {
+    font-size: 14px;
+    color: #186CA3;
+    text-decoration: none;
+}
+
+.signin-btn {
+    background-color: Green;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.insignin{
+    text-align: center;
+    padding-top: 10px;
+}
