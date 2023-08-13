@@ -1,18 +1,15 @@
-// your-script.js
 function toggleEditSave() {
     var editButton = document.getElementById('editButton');
     var postTitle = document.getElementById('postTitle');
     var postText = document.getElementById('postText');
 
     if (editButton.innerHTML.includes('Edit')) {
-        // Enable editing mode
         editButton.innerHTML = "Save <i class='fa fa-save'></i>";
         postTitle.contentEditable = true;
         postText.contentEditable = true;
         postTitle.style.border = '2px solid pink';
         postText.style.border = '2px solid pink';
     } else {
-        // Save changes and exit editing mode
         editButton.innerHTML = "Edit <i class='fa fa-edit'></i>";
         postTitle.contentEditable = false;
         postText.contentEditable = false;
